@@ -1,0 +1,502 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	/* border: 1px solid grey; */
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+    background-color: HEX #f7f7f5;
+}
+
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+    /* border: 1px solid grey; */
+}
+
+.content {
+    max-width: 75%;
+    margin: auto;
+    padding: 2%;
+    background-color: RGB(243,242,239);
+}
+
+/* header */
+
+header {
+    background-color: RGB(22,22,25);
+    max-width: 75%;
+    margin: auto;
+}
+
+.page-head {
+    background-color: RGB(22,22,25);
+}
+
+.top {
+    display: flex;
+    padding: 25px;
+    justify-content: space-between;
+    border-bottom: 5px white;
+}
+
+nav {
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;    
+}
+
+a {
+    margin-top: auto;
+    margin-bottom: auto;
+    color: white;
+    /* background-color: RGB(22,22,25); */
+    text-decoration: none;
+    /* position: absolute; bottom 0; */
+}
+
+.image {
+    background-image: url(./Grand-Mesa.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 3000px;
+    height: auto;
+    padding: 20px;
+}
+
+.image-text {
+    color: white;
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    top: 95%;
+    padding: 0px;
+}
+
+/* Body */
+
+.snippet {
+    display: flex;
+    justify-content: space-evenly;
+    border-bottom: 2px grey;
+    background-color: RGB(22,22,25);
+    padding-bottom: 20px;
+}
+
+.snippet-text {
+    color: white;
+    padding: 0;
+    width: auto;
+    padding: 20px;
+}
+
+.teaser {
+    margin-top: auto;
+    margin-bottom: auto;
+    width: cover;
+}
+
+body {
+	line-height: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    background-color: RGB(243,242,239);
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.5;
+    color: black;
+}
+
+h2, h3, h4, h5, h6, p, i {
+    text-decoration: none;
+    color: RGB(67,70,75);
+    padding: 0.5%;
+}
+
+h1 {
+    font-size: 3.5rem;
+    color: white;
+}
+
+h2 {
+    font-size: 2.5rem;
+    margin-bottom: 0%;
+}
+
+h3 {
+    text-align: center;
+    font-size: 1.50rem;
+}
+
+h4 {
+    font-size: 1.5rem;
+}
+
+p {
+    font-size: 1.25rem;
+}
+
+span {
+    font-size: 1.4rem
+}
+
+/* Spacer */
+
+.spacer {
+    padding: 2%;
+}
+
+/* Case Studies */
+
+.Case-Studies {
+    border: 1px solid grey;
+    border-radius: 5%;
+    padding: 2% 5% 2% 5%;
+    background-color: white;
+}
+
+
+/* Experience */
+
+.Experience {
+    border: 1px solid grey;
+    border-radius: 5%;
+    padding: 2% 5% 2% 5%;
+    background-color: white;
+}
+
+.American {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 3%;
+}
+
+.montefirst {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 3%;
+}
+
+.monte {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 3%;
+}
+
+.mandalayfirst {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 3%;
+}
+
+.mandalay {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 3%;
+}
+
+.bellagio {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 3%;
+}
+
+.bellagiodate {
+    font-size: 1.5rem;
+    padding-top: 3%;
+}
+
+.prime {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 3%;
+}
+
+
+/* EDUCATION */
+
+.Education {
+    border: 1px solid grey;
+    border-radius: 5%;
+    padding: 2% 5% 2% 5%;
+    background-color: white;
+}
+
+.finance{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-top: 3%;
+}
+
+.hospo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-top: 3%;
+}
+
+/* About me */
+
+.About {
+    margin-top: 0%;
+}
+
+.About-Me {
+    border: 1px solid grey;
+    border-radius: 5%;
+    padding: 2% 5% 2% 5%;
+    background-color: white;
+}
+
+  .contact {
+    padding-bottom: 15%;
+  }
+
+  .ContactMe{
+    padding-top: 10%;
+  }
+  
+  ul {
+    position:absolute;
+    top: 90px%;
+    left:50%;
+    transform:translate(-50%, -50%);
+    display:flex;
+    margin:0;
+    padding:0;
+  }
+  
+  ul li {
+    list-style:none;
+    margin:0 5px;
+  }
+  
+  /* icon height */
+  ul li a .fa {
+    font-size: 300%;
+    color: #262626;
+    line-height:100%;
+    transition: .5s;
+    /* padding-right: 14px; */
+  }
+  
+  /* social names */
+  ul li a span {
+    padding:0;
+    margin:0;
+    position:absolute;
+    top: 25%;
+    color: #262626;
+    letter-spacing: 4px;
+    transition: .5s;
+  }
+  
+  /* surface width */
+  ul li a {
+    text-decoration: none;
+    display:absolute;
+    display:block;
+    width:250px;
+    height:80px;
+    background: #fff;
+    text-align:left;
+    padding-left: 20px;
+    transform: rotate(-30deg) skew(25deg) translate(0,0);
+    transition:.5s;
+    box-shadow: -20px 20px 10px rgba(0,0,0,.5);
+  }
+
+  /* left grey border */
+  ul li a:before {
+    content: '';
+    position: absolute;
+    top:10px;
+    left:-20px;
+    height:100%;
+    width:20px;
+    background: #b1b1b1;
+    transform: .5s;
+    transform: rotate(0deg) skewY(-45deg);
+  }
+
+  /* bottom border */
+  ul li a:after {
+    content: '';
+    position: absolute;
+    bottom:-20px;
+    left:-10px;
+    height:20px;
+    width:100%;
+    background: #b1b1b1;
+    transform: .5s;
+    transform: rotate(0deg) skewX(-45deg);
+  }
+  
+  ul li a:hover {
+    transform: rotate(-30deg) skew(25deg) translate(20px,-15px);
+    box-shadow: -50px 50px 50px rgba(0,0,0,.5);
+  }
+  
+  ul li:hover .fa {
+    color:#fff;
+  }
+  
+  ul li:hover span {
+    color:#fff;
+  }
+  
+  ul li:hover:nth-child(1) a{
+    background: #3b5998;
+  }
+  ul li:hover:nth-child(1) a:before{
+    background: #365492;
+  }
+  ul li:hover:nth-child(1) a:after{
+    background: #4a69ad;
+  }
+  
+  ul li:hover:nth-child(2) a{
+    background: #EA4335;
+  }
+  ul li:hover:nth-child(2) a:before{
+    background: #EA4335;
+  }
+  ul li:hover:nth-child(2) a:after{
+    background: #EA4335;
+  }
+  
+  ul li:hover:nth-child(3) a{
+  background:linear-gradient(135deg, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d);
+  }
+  ul li:hover:nth-child(3) a:before{
+  background:#405de6
+  }
+  ul li:hover:nth-child(3) a:after{
+  background:linear-gradient(135deg, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d);
+  }
+  
+  ul li:hover:nth-child(4) a{
+    background: #e4405f;
+  }
+  ul li:hover:nth-child(4) a:before{
+    background: #d81c3f;
+  }
+  ul li:hover:nth-child(4) a:after{
+    background: #e46880;
+  }
+
+.responsivebuttons {
+    display: none;
+}
+
+
+
+
+
+  /* <!-- tablet media enquiry --> */
+
+  @media (max-width: 1230px) {
+
+    .image-text {
+        display: none;
+    }
+
+    .content {
+        max-width: 100%;
+        margin: auto;
+        padding: 2%;
+        background-color: RGB(243,242,239);
+    }
+
+    .page-head {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .top {
+        display: flex;
+        flex-direction: column;
+    }
+
+   nav {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+        width: auto;
+   }
+
+   .snippet{
+    display: flex;
+    flex-direction: column;
+   }
+
+   .image{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: auto;
+    height: 400px;
+   }
+
+   .image-text {
+    padding: 5%;
+   }
+      
+  }
+
+  /* Mobile media enquiry */
+
+  @media (max-width: 877px) {
+    footer{
+        display: none;
+    }
+
+    .image-text {
+        display: none;
+    }
+
+    .responsivebuttons{
+        padding-top: 10%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    .linkedinbutton{
+        color: #262626;
+    }
+
+    .mailbutton{
+        color: #262626;
+    }
+
+    .instabutton{
+        color: #262626;
+    }
+  }
