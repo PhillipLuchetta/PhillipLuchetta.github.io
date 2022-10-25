@@ -798,9 +798,13 @@ footer {
     @media (max-width: 400px) {
 
         p {
-            padding-top: 8%;
+            padding: 5%;
         }
    
+        ul, li {
+            padding: 2%;
+        }
+
         .image{
             margin-left: 22%;
             background-image: url(./Grand-Mesa.jpg);
