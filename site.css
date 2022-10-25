@@ -85,7 +85,7 @@ a {
     background-image: url(./Grand-Mesa.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    width: 3000px;
+    width: 200vw;
     height: auto;
     padding: 20px;
 }
@@ -116,7 +116,9 @@ a {
     color: white;
     padding: 0;
     width: auto;
-    padding: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
 }
 
 .teaser {
@@ -430,7 +432,17 @@ footer {
 
   /* <!-- tablet media enquiry --> */
 
-  @media (max-width: 1230px) {
+  @media (max-width: 1380px) {
+
+    .image{
+        margin-left: 22%;
+        background-image: url(./Grand-Mesa.jpg);
+        background-repeat: no-repeat;
+        background-size: contain;
+        width: 40vw;
+        height: 50vh;
+        padding: 2px;
+    }
 
     .image-text {
         display: none;
@@ -465,14 +477,6 @@ footer {
    .snippet{
     display: flex;
     flex-direction: column;
-   }
-
-   .image{
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    width: auto;
-    height: 400px;
    }
 
    .image-text {
@@ -607,7 +611,18 @@ footer {
 
   /* Mobile media enquiry */
 
-  @media (max-width: 877px) {
+  @media (max-width: 900px) {
+   
+    .image{
+        margin-left: 22%;
+        background-image: url(./Grand-Mesa.jpg);
+        background-repeat: no-repeat;
+        background-size: contain;
+        width: 40vw;
+        height: 40vh;
+        padding: 2px;
+    }
+
     footer{
         display: none;
     }
@@ -762,3 +777,37 @@ footer {
 .promo {
     padding-top: 5%;
 }
+
+@media (max-width: 700px) {
+   
+    .image{
+        margin-left: 22%;
+        background-image: url(./Grand-Mesa.jpg);
+        background-repeat: no-repeat;
+        background-size: contain;
+        width: 40vw;
+        height: 35vh;
+        padding: 2px;
+    }
+
+    .snippet-text {
+        margin-top: -50px;
+        text-align: center;
+    }
+
+    @media (max-width: 400px) {
+   
+        .image{
+            margin-left: 22%;
+            background-image: url(./Grand-Mesa.jpg);
+            background-repeat: no-repeat;
+            background-size: contain;
+            width: 40vw;
+            height: 35vh;
+            padding: 2px;
+        }
+    
+        .snippet-text {
+            margin-top: -100px;
+            text-align: center;
+        }
