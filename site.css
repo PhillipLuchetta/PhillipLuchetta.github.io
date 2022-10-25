@@ -796,6 +796,10 @@ footer {
     }
 
     @media (max-width: 400px) {
+
+        p {
+            padding-top: 8%;
+        }
    
         .image{
             margin-left: 22%;
