@@ -612,7 +612,8 @@ footer {
   /* Mobile media enquiry */
 
   @media (max-width: 900px) {
-   
+
+
     .image{
         margin-left: 22%;
         background-image: url(./Grand-Mesa.jpg);
@@ -822,6 +823,10 @@ footer {
    
         ul, li {
             padding: 2%;
+        }
+
+        .key {
+            text-align: center;
         }
 
         .image{
