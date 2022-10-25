@@ -805,6 +805,17 @@ footer {
             font-size: 2rem;
         }
 
+        h3 {
+            font-size: 1.2rem;
+            padding: 2%;
+            text-align: center;
+        }
+
+        b {
+            font-size: 1.2rem;
+            padding: 2%;
+        }
+
         p {
             padding: 5%;
         }
@@ -826,4 +837,51 @@ footer {
         .snippet-text {
             margin-top: -80px;
             text-align: center;
+        }
+
+        .American {
+            display: flex;
+            flex-direction: column;
+            padding-top: 3%;
+        }
+        
+        .montefirst {
+            display: flex;
+            flex-direction: column;
+            padding-top: 3%;
+        }
+        
+        .monte {
+            display: flex;
+            flex-direction: column;
+            padding-top: 3%;
+        }
+        
+        .mandalayfirst {
+            display: flex;
+            flex-direction: column;
+            padding-top: 3%;
+        }
+        
+        .mandalay {
+            display: flex;
+            flex-direction: column;
+            padding-top: 3%;
+        }
+        
+        .bellagio {
+            display: flex;
+            flex-direction: column;
+            padding-top: 3%;
+        }
+        
+        .bellagiodate {
+            font-size: 1.5rem;
+            padding-top: 3%;
+        }
+        
+        .prime {
+            display: flex;
+            flex-direction: column;
+            padding-top: 3%;
         }
