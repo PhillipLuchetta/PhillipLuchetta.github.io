@@ -85,19 +85,20 @@ a {
     background-image: url(./Grand-Mesa.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    width: 200vw;
+    width: 80vw;
     height: 40vh;
     padding: 20px;
 }
 
 .image-text {
-    color: black;
+    color: white;
+    font-size: 1rem;
     font-style: italic;
     display: flex;
     justify-content: flex-end;
     position: relative;
-    top: 95%;
-    right: 40%;
+    top: 99%;
+    right: 13%;
     padding: 0px;
 }
 
@@ -116,9 +117,14 @@ a {
     color: white;
     padding: 0;
     width: auto;
+    
     padding-left: 20px;
-    padding-right: 20px;
+    padding-right: 
     padding-bottom: 20px;
+}
+
+.quotetext {
+    font-style: italic;
 }
 
 .teaser {
@@ -167,6 +173,10 @@ h3 {
     font-size: 1.5rem;
 }
 
+.spacer {
+    margin: 50px;
+}
+
 .experiencedescription {
     text-align: center;
 }
@@ -186,8 +196,8 @@ span {
 
 /* Spacer */
 
-.spacer {
-    padding: 2%;
+.spacer2 {
+    padding: 5%;
 }
 
 /* Case Studies */
@@ -303,6 +313,10 @@ span {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+  }
+
+  .kiwi {
+    color: black;
   }
 
   
@@ -428,14 +442,15 @@ footer {
 
 .promo {
     padding-top: 5%;
+    padding-bottom: 5%;
 }
 
   /* <!-- tablet media enquiry --> */
 
-  @media (max-width: 1380px) {
+  @media (max-width: 1450px) {
 
     .image{
-        margin-left: 22%;
+        margin-left: 30%;
         background-image: url(./Grand-Mesa.jpg);
         background-repeat: no-repeat;
         background-size: contain;
@@ -447,6 +462,10 @@ footer {
     .image-text {
         display: none;
         object-fit: contain;
+    }
+
+    .snippet-text {
+        padding-top: 5%;
     }
 
     .content {
@@ -607,6 +626,7 @@ footer {
 
 .promo {
     padding-top: 5%;
+    padding-bottom: 5%;
 }
 
   /* Mobile media enquiry */
@@ -777,6 +797,7 @@ footer {
 
 .promo {
     padding-top: 5%;
+    padding-bottom: 5%;
 }
 
 @media (max-width: 700px) {
@@ -792,8 +813,27 @@ footer {
     }
 
     .snippet-text {
+        padding-top: 10%;
         margin-top: -50px;
         text-align: center;
+    }
+
+    @media (max-width: 500px) {
+
+        .image{
+            margin-left: 22%;
+            background-image: url(./Grand-Mesa.jpg);
+            background-repeat: no-repeat;
+            background-size: contain;
+            width: 40vw;
+            height: 35vh;
+        }
+
+        .snippet-text {
+            margin-top: -100px;
+            text-align: center;
+        }
+
     }
 
     @media (max-width: 400px) {
@@ -831,7 +871,7 @@ footer {
         }
 
         .image{
-            margin-left: 22%;
+            margin-left: 23%;
             background-image: url(./Grand-Mesa.jpg);
             background-repeat: no-repeat;
             background-size: contain;
@@ -841,8 +881,9 @@ footer {
         }
     
         .snippet-text {
-            margin-top: -80px;
+            margin-top: -90px;
             text-align: center;
+            padding: 0px;
         }
 
         .American {
@@ -891,3 +932,24 @@ footer {
             flex-direction: column;
             padding-top: 3%;
         }
+
+        .finance {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .hospo {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .educationtext {
+            padding: 0px;
+        }
+
+        .educationtextlast {
+            padding: 0px;
+            padding-bottom: 5%;
+        }
+    }
+        
