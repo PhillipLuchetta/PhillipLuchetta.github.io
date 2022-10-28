@@ -955,6 +955,7 @@ footer {
         .educationtextlast {
             padding: 0px;
             padding-bottom: 5%;
+            text-align: start;
         }
     }
         
