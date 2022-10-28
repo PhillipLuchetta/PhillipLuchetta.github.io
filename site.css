@@ -126,6 +126,8 @@ a {
 .quotetext {
     font-style: italic;
     text-align: center;
+    padding-bottom: 0;
+
 }
 
 .teaser {
@@ -270,6 +272,7 @@ span {
 
 .quote {
     text-align: center;
+    padding-top: 0;
 }
 
 
