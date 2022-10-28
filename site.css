@@ -125,6 +125,7 @@ a {
 
 .quotetext {
     font-style: italic;
+    text-align: center;
 }
 
 .teaser {
@@ -197,7 +198,7 @@ span {
 /* Spacer */
 
 .spacer2 {
-    padding: 5%;
+    padding: 2.5%;
 }
 
 /* Case Studies */
@@ -268,7 +269,6 @@ span {
 }
 
 .quote {
-    padding-top: 2%;
     text-align: center;
 }
 
@@ -285,14 +285,14 @@ span {
 .finance{
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: space-between;
     padding-top: 3%;
 }
 
 .hospo{
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: space-between;
     padding-top: 3%;
 }
 
@@ -441,8 +441,8 @@ footer {
 }
 
 .promo {
-    padding-top: 5%;
-    padding-bottom: 5%;
+    padding-top: 3%;
+    padding-bottom: 3%;
 }
 
   /* <!-- tablet media enquiry --> */
@@ -944,7 +944,12 @@ footer {
         }
 
         .educationtext {
+            text-align: start;
             padding: 0px;
+        }
+
+        .educationbold {
+            text-align: start;
         }
 
         .educationtextlast {
