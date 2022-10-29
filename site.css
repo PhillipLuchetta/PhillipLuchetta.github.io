@@ -60,7 +60,8 @@ header {
 
 .top {
     display: flex;
-    padding: 25px;
+    padding-top: 2%;
+    padding-bottom: 2%;
     justify-content: space-between;
     border-bottom: 5px white;
 }
@@ -116,11 +117,8 @@ a {
 .snippet-text {
     color: white;
     padding: 0;
-    width: auto;
-    
-    padding-left: 20px;
-    padding-right: 
-    padding-bottom: 20px;
+    max-width: 1400px;
+    padding-left: 5%;
 }
 
 .quotetext {
@@ -297,6 +295,19 @@ span {
     flex-direction: row;
     justify-content: space-between;
     padding-top: 3%;
+    padding-bottom: 3%;
+}
+
+.educationtextlastright {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+
+.educationtextright {
+    padding: 0;
+    margin: 0;
+    width: 100%;
 }
 
 /* About me */
@@ -948,17 +959,18 @@ footer {
 
         .educationtext {
             text-align: start;
+            margin: 0px;
             padding: 0px;
+            width: 100%;
+        }
+
+        .denver{
+            width: 100%;
         }
 
         .educationbold {
             text-align: start;
         }
 
-        .educationtextlast {
-            padding: 0px;
-            padding-bottom: 5%;
-            text-align: start;
-        }
     }
         
